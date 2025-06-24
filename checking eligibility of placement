@@ -1,0 +1,15 @@
+S = ["ANU", "RAJ", "RAM","SAM", "ANI", "BALU", "ROSE", "BEN", "TOM", "ROY"]
+M = [[22,33,98],[45,77,29],[89,87,12],[35,65,29],[55,44,33],[66,22,8],[88,22,13],[99,27,56],[77,38,56],[68,63,69]]
+A = [False,False,True,False,False,False,True,False,False,True]
+result = []
+
+for i in range(len(S)):
+    total = sum(M[i])
+    percent = total // 3
+    if percent >= 40:
+        status = "no arrear" if A[i] else "arrear"
+        line = f"{len(result)+1}. {S[i].lower()}:{percent}% - {status}"
+        result.append(line)
+
+for r in result:
+    print(r)
