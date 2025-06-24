@@ -16,5 +16,5 @@ students.sort(key=lambda x:x["percentage"], reverse=True)
 pos=["FIRST","SECOND","THIRD","FOURTH","FIFTH"]
 j=0
 for i in students:
-    print("{} scorde {}% -> stands{}".format(i["name"],i["percentage"],pos[j]))
+    print("{} score {}% -> stands{}".format(i["name"],i["percentage"],pos[j]))
     j=j+1
