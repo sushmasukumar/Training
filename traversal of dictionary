@@ -1,0 +1,3 @@
+person={"name": "ravi","age":25,"city" : "chennai"}
+items= list(person.keys())
+print(items[1])
