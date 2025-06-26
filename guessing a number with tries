@@ -2,7 +2,7 @@ import random
 
 def game():
     target_number = random.randint(1,1000)
-    guess= 0
+    guess=10
     number_of_tries= 0 
     max_tries=10 
     
