@@ -1,0 +1,5 @@
+import matplotlib.pyplot as plt
+import numpy as np
+a=np.array([100,200,300])
+b=0.1
+print((a*b)+a)
